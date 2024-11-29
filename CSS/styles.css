@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1B1C22;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #navbar{
+  /*  border: 1px solid, red; */
+    background-color:#15151B;
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Add animation to navbar ul items */
+  #navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 40px 0 40px 0;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #565656;
+  }
+  
+  #navbar ul li {
+    flex: 1; /* Ensure all items take equal space */
+    text-align: center; /* Center-align text inside */
+    min-width: 100px; /* Prevent collapsing */
+  
+  }
+  
+  #navbar a{
+    text-decoration: none;
+    color: #565656;
+  }
+  
+  #navbar a:hover {
+    color: rgb(255, 150, 150); /* Optional: Changes text color to red */
+  }
+  
+  /* Styling for the Sign-In button */
+  #sign-in-btn {
+    background-color: #FF5555; /* Red background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 14px; /* Adjust font size */
+    font-weight: 600; /* Bold text */
+    text-transform: uppercase;
+    transition: all 0.3s ease; /* Smooth hover effect */
+    position: absolute;
+    top: 32%;
+  }
+  
+  /* Hover effect for the button */
+  #sign-in-btn:hover {
+    background-color: #FF7777; /* Lighter red on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  /* Optional active (click) effect */
+  #sign-in-btn:active {
+    background-color: #FF3333; /* Darker red when clicked */
+    transform: scale(0.95); /* Slightly shrink button */
+  }
+  
+  /* game table play.html tab */
+  #games {
+    border-radius: 20px;
+    text-align: center; /* Centers the content horizontally */
+    padding: 20px; /* Adds spacing inside the section */
+    color: white;
+    margin: 15% 40% 0 40%;
+    background-color: black;
+  }
+  
+  #games h2 {
+    font-size: 24px;
+    margin-bottom: 10px; /* Adds spacing between the header and the button */
+    margin-top: 0px;
+  }
+  
+  #join-2v2-btn {
+    padding: 10px 50px;
+    font-size: 16px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #join-2v2-btn:hover {
+    background-color: #c72f3e;
+  }
+  
+  /* Hero Section Styling */
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXoybzUxMWxtbmt1cmFrZTl5M3MxM3VycmphajcxOTZsbGFsM2JrNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/6urGFMNHU5pF4cLIUW/giphy.gif') center/cover no-repeat;
+    height: 86vh; /* Full-screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    z-index: 1;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #e63946; /* Vibrant red accent */
+    letter-spacing: 2px;
+  }
+  
+  /* Styling for the button that uses an image */
+  .btn-image {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .btn-image img {
+    width: 150px; /* Adjust the size of the image */
+    height: 40px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .btn-image img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    opacity: 0.9; /* Slight fade effect */
+  }
+  
